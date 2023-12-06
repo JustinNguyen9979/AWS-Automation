@@ -1,7 +1,3 @@
-//script name: vertical scaling amazon ec2
-//Author: Viet Tran
-//Email: hello@viet.vn
-
 /*
     1. stop ec2 and check is it stopped?
     2. check stopped before modifying ec2 instance to new instance type

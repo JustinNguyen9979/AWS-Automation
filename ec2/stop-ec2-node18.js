@@ -1,7 +1,3 @@
-// Author: VietAWS
-// Youtube Channel: VietAWS
-
-// load the SDK for JavaScript
 import { EC2Client, StopInstancesCommand } from '@aws-sdk/client-ec2';
 
 // a client can be shared by different commands.

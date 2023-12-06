@@ -1,6 +1,3 @@
-// Author: VietAWS
-// Youtube Channel: VietAWS
-
 import { RDSClient, StartDBInstanceCommand } from '@aws-sdk/client-rds'; // ES Modules import
 
 const client = new RDSClient({
