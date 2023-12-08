@@ -1,7 +1,7 @@
 import { RDSClient, StopDBInstanceCommand } from '@aws-sdk/client-rds'; // ES Modules import
 
 const client = new RDSClient({
-  region: 'ap-southeast-1',
+  region: 'ap-northeast-1',
 });
 
 export const handler = async (event) => {
@@ -11,7 +11,7 @@ export const handler = async (event) => {
     DBClusterIdentifier: 'aurora-sls-dev',
   };
   const inputDBInstance = {
-    DBInstanceIdentifier: 'aws-rds-mysql-dms-demo',
+    DBInstanceIdentifier: 'rds-mysql-demo',
   };
 
   // const command = new StopDBClusterCommand(inputDBCluster);
