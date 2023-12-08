@@ -6,8 +6,6 @@ import {
 const client = new AutoScalingClient({ region: 'ap-southeast-1' });
 
 export const handler = async (event) => {
-  // TODO implement
-
   //update asg
   const input = {
     AutoScalingGroupName: 'asg-aws-automation',
